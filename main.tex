@@ -1,0 +1,210 @@
+\documentclass[CvConst]{cv}
+
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{CV}
+\author{\LaTeX{} Axel Dehesa}
+\date{July 20}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Axel}{Dehesa.}{Web Developer.}{white}
+
+
+
+%------------------------------------------------
+
+
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+
+\end{center}
+
+\bg{cvgreen}{white}{About me}\\[0.5em]
+
+{\footnotesize
+I'm a proactive person, technology enthusiast.
+I love learning new things
+}
+\bigskip
+
+\bg{cvgreen}{white}{Personal} \\[0.5em]
+Axel Dehesa
+
+nationality: Mexican 
+
+24 Years old
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+Frontend ~•~ Wordpress ~•~ php ~•~ Client Attention
+
+\bigskip
+
+
+
+\bigskip
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+
+Programming, video games, Cyber Segurity learning new things
+
+\bigskip
+
+
+\vspace{4em}
+
+\bigskip
+
+
+
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Work Experience}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2023-2024}{VirtualBlux}{Technical Support}{Remote}{Client attention, Programing, Social Network Manegment}{favicon_v2.png}\\
+    \cvevent{2022-2023}{Kai Studio}{Video Editor}{Coatzacoalcos, Ver. }{CM, social network Management and video editing}{kai png negro.png} \\
+    \cvevent{2021-2022}{Volkswagen}{Community Manager and Client Atention}{Coatzacoalcos, Ver. }{CM, social network Management and sells}{Volkswagen.png} \\
+
+\end{tabular}
+\vspace{.2em}
+
+\section*{Education}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+
+    \cvevent{2019-2022}{Tecnm Campus Coatzacoalcos}{Computer systems engineering}{Coatzacoalcos, Ver}{3 Years} \\
+\end{tabular}
+\vspace{.2em}
+
+\begin{minipage}[t]{0.7\textwidth}
+
+
+
+\section*{Programming}
+\begin{tabular}{@{}l@{}}
+    \bg{htmlabelcolour}{iconcolour}{Html}  
+    \bg{csslabelcolour}{iconcolour}{Css}
+    \bg{phplabelcolour}{iconcolour}{PHP}  
+    \bg{jslabelcolour}{jsiconcolour}{Javascript}  
+    \bg{tslabelcolour}{iconcolour}{Typescript}  
+    \bg{pylabelcolour}{iconcolour}{Python} \\  
+    \bg{wplabelcolour}{iconcolour}{Wordpress} 
+    \bg{lqdlabelcolour}{iconcolour}{Liquid}  
+    \bg{twlabelcolour}{iconcolour}{Tailwind}  
+    \bg{blmlabelcolour}{iconcolour}{Bulma}  
+    \bg{bstlabelcolour}{iconcolour}{Boostrap} \\
+\end{tabular}
+
+
+\end{minipage}
+
+\vspace{3em}
+
+\begin{minipage}[t]{0.33\textwidth}
+\section*{Softskills}
+\begin{tabular}{>{\footnotesize\bfseries}r @{\hspace{0.5em}}l}
+    Leadership\\
+    Coworking\\
+    Assertiveness\\
+    Adaptation\\
+\end{tabular}
+\bigskip
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{Spanish} & C2 & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{English} & B1 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+\textbf{Japanense} & A1 & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.33\textwidth}
+\section*{Hardskills}
+\begin{tabular}{>{\footnotesize\bfseries}r @{\hspace{0.5em}}l}
+    Frontend\\
+    Cybersegurity\\
+    Backend\\
+    Adobe Suite\\
+\end{tabular}
+\bigskip
+
+
+\section*{Certificates}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    May 19-20 2017 & Certification on ONaSSol \\
+\end{tabular}
+
+
+
+
+\end{minipage}\hfill
+
+
+
+
+
+
+
+
+\vfill{} 
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small  \icon{\faMapMarker}{cvgreen}{} Coatzacoalcos, Veracruz \icon{\faPhone}{cvgreen}{} 921 2745725 \newline\icon{\faAt}{cvgreen}{} \protect\url{d.dehesa16@gmail.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
